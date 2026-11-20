@@ -1,0 +1,62 @@
+# ============================
+# 1. Environment Variables
+# ============================
+.env
+.env.*
+!.env.example
+
+# ============================
+# 2. Virtual Environments
+# ============================
+.venv/
+venv/
+env/
+
+# ============================
+# 3. Python Cache Files
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================
+# 4. Testing and Cache
+# ============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ============================
+# 5. IDE and Editor Files
+# ============================
+.vscode/
+.idea/
+
+# ============================
+# 6. Operating System Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# 7. Logs and Temporary Files
+# ============================
+*.log
+logs/
+*.tmp
+*.temp
+
+# ============================
+# 8. Jupyter Notebook Checkpoints
+# ============================
+.ipynb_checkpoints/
+
+# ============================
+# 9. Python Build Files
+# ============================
+build/
+dist/
+*.egg-info/
